@@ -1,0 +1,2 @@
+both_correct,logistic_correct_forest_incorrect,logistic_incorrect_forest_correct,both_incorrect,discordant_pairs,test_statistic,p_value,alpha,method,decision,test_records
+152,4,6,22,10,4.0,0.75390625,0.05,Exact binomial McNemar test,Fail to reject H0,184

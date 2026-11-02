@@ -1,0 +1,10 @@
+- Observed disease prevalence was 55.3% (509 of 920 records); its 95% Wilson confidence interval is 52.1% to 58.5%.
+- The prevalence interval quantifies sampling uncertainty under a binomial model; it does not account for selection or differences among the contributing hospital samples.
+- Source-specific observed prevalence ranges from 36.1% to 93.5%. The pooled estimate reflects the mix of these source datasets and should not be treated as population prevalence.
+- Numerical-feature intervals are Student t confidence intervals for group means, using non-missing observations for each feature. They describe uncertainty in means, not the spread of individual measurements.
+- Recorded zero values were retained because the supplied files use '?' to mark missingness (trestbps: 1, chol: 172). Some may be invalid or source-specific missing-value codes, so verify their meaning before interpreting those feature summaries.
+- age: mean 53.51 (n=920; 95% t interval 52.90 to 54.12).
+- trestbps: mean 132.13 (n=861; 95% t interval 130.86 to 133.41).
+- chol: mean 199.13 (n=890; 95% t interval 191.84 to 206.42).
+- thalach: mean 137.55 (n=865; 95% t interval 135.82 to 139.28).
+- oldpeak: mean 0.88 (n=858; 95% t interval 0.81 to 0.95).

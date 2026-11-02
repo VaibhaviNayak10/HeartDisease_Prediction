@@ -1,0 +1,2 @@
+comparison,logistic_regression_auc,random_forest_auc,auc_difference,ci_lower,ci_upper,confidence_level,p_value,alpha,decision,n_test_records,n_bootstrap,random_state,method
+Logistic Regression AUC - Random Forest AUC,0.9255141080822573,0.9273075083692013,-0.0017934002869439691,-0.016977522716403626,0.013629842180774787,0.95,0.8154184581541846,0.05,Fail to reject H0,184,10000,42,Paired stratified percentile bootstrap; null-centered two-sided test

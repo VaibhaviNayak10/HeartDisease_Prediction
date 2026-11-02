@@ -1,0 +1,11 @@
+H0: Both models have the same probability of classification error.
+H1: Both models have different probabilities of classification error.
+Contingency table rows: Logistic Regression correctness.
+Contingency table columns: Random Forest correctness.
+Discordant pairs: 10
+Test statistic: 4.000000
+P-value: 0.753906
+Alpha: 0.050
+Method: Exact binomial McNemar test
+Decision: Fail to reject H0
+Interpretation: At alpha=0.050, the paired test does not provide sufficient evidence that the models have different classification error probabilities on this held-out test sample. This is not proof that their error probabilities are equal.

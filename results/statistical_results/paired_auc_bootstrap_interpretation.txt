@@ -1,0 +1,12 @@
+H0: Logistic Regression AUC = Random Forest AUC
+H1: Logistic Regression AUC != Random Forest AUC
+Difference definition: Logistic Regression AUC - Random Forest AUC
+Logistic Regression AUC: 0.925514
+Random Forest AUC: 0.927308
+AUC difference: -0.001793
+95% bootstrap confidence interval: [-0.016978, 0.013630]
+Two-sided p-value: 0.815418
+Alpha: 0.050
+Decision: Fail to reject H0
+Interpretation: At alpha=0.050, the paired bootstrap does not provide sufficient evidence that the models' ROC-AUC values differ. This is not proof that the models have equal AUC.
+Method: paired stratified bootstrap, resampling identical test observations for both models within target class; percentile interval and null-centered two-sided p-value.
