@@ -37,25 +37,6 @@ is retained for subgroup analysis and is not used as a model predictor.
    confusion matrices. Existing paired bootstrap AUC comparison and McNemar
    test compare Logistic Regression with Random Forest.
 
-## Setup
-Python 3.10+ is recommended.
-
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-## Run everything
-From the repository root:
-
-```bash
-python run_project.py
-```
-
 Generated tables are saved in `results/statistical_results/`; plots are saved
 in `results/plots/`; fitted Logistic Regression and Random Forest artifacts
 are saved in `saved_models/`.
